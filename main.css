@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url("/image/hotel.jpg");
+}
+
+h1 {
+    color: white;
+    font-size: 72px;
+}
+
+h2 {
+    color: white;
+    font-size: 48px;
+}
+
+p {
+    font-size: 30px;
+    padding: 20px;
+    color: white;
+}
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-btn {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #803d3d;
+    color: white;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.section-btn {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: #803d3d;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.section-btn:hover {
+    background: #b97575;
+    color: white;
+}
+
+.main-btn:hover {
+    background: white;
+    color: #803d3d;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    width: 35vh;
+    margin: 15px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+    background-color: #803d3d;
+    overflow-x: auto;
+}
+
+.first-section {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color: #803d3d;
+}
+
+.booking {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 80vh;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #803d3d;
+}
+
+.img-number {
+    height: 60vh;
+}
+
+@media (max-width: 1072px) {
+    .first-section {
+        flex-direction: column;
+        padding-right: 0px;
+        height: 70vh;
+    }
+
+    .img-number {
+        height: 20vh;
+    }
+
+    .booking {
+        padding-right: 0px;
+        height: 40vh;
+    }
+}
